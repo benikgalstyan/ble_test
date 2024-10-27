@@ -1,4 +1,4 @@
-package com.example.change
+package com.example.ble_test
 
 import io.flutter.embedding.android.FlutterActivity
 

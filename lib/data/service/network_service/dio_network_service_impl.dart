@@ -1,5 +1,5 @@
-import 'package:change/core/templates/typedefs.dart';
-import 'package:change/data/service/network_service/network_service.dart';
+import 'package:ble_test/core/templates/typedefs.dart';
+import 'package:ble_test/data/service/network_service/network_service.dart';
 import 'package:dio/dio.dart';
 
 class DioNetworkServiceImpl implements NetworkService {

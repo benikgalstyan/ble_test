@@ -1,4 +1,4 @@
-import 'package:change/core/templates/typedefs.dart';
+import 'package:ble_test/core/templates/typedefs.dart';
 import 'package:dio/dio.dart';
 
 typedef HeaderMap = StringMap;

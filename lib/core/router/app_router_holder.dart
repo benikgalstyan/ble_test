@@ -1,4 +1,4 @@
-import 'package:change/core/router/router.dart';
+import 'package:ble_test/core/router/router.dart';
 import 'package:flutter/material.dart';
 
 class AppRouterHolder extends InheritedWidget {

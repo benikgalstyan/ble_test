@@ -1,4 +1,4 @@
-import 'package:change/core/logger/composite_logger.dart';
+import 'package:ble_test/core/logger/composite_logger.dart';
 import 'package:logger/logger.dart';
 
 class CompositeLoggerImpl implements CompositeLogger {

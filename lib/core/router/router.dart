@@ -1,5 +1,5 @@
-import 'package:change/presentation/pages/main_screen/main_screen.dart';
-import 'package:change/presentation/pages/second_screen/second_screen.dart';
+import 'package:ble_test/presentation/pages/main_screen/main_screen.dart';
+import 'package:ble_test/presentation/pages/second_screen/second_screen.dart';
 import 'package:auto_route/auto_route.dart';
 
 part 'router.gr.dart';
