@@ -8,6 +8,7 @@ To the next search bar  and type your new app name "app name" and click replace 
 
 ```bash
 to create new repository in github
-git remote remove origin
-git remote add origin "repo path'
+git remote add origin "repo path"
+git branch -M main
+git push -u origin main
 ```
