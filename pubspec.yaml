@@ -51,13 +51,3 @@ flutter_intl:
 flutter_gen:
   output: lib/generated/assets
 
-flutter_native_splash:
-  android: true
-  ios: true
-  web: false
-  image: "assets/images/splash_screen/splash_screen.png"
-  color: "#2E6653"
-  android_12:
-    color: "#2E6653"
-    image: "assets/images/splash_screen/splash_screen_12+.png"
-
