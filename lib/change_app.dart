@@ -1,19 +1,14 @@
-import 'package:askm/core/logger/conposite_logger_holder.dart';
-import 'package:askm/core/router/app_router_holder.dart';
-import 'package:askm/core/router/router.dart';
-import 'package:askm/generated/l10n.dart';
-import 'package:askm/service_locator.dart';
+import 'package:change/core/logger/composite_logger_holder.dart';
+import 'package:change/core/router/app_router_holder.dart';
+import 'package:change/core/router/router.dart';
+import 'package:change/generated/l10n.dart';
+import 'package:change/service_locator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
-class AskmApp extends StatefulWidget {
-  const AskmApp({super.key});
+class changeApp extends StatelessWidget {
+  changeApp({super.key});
 
-  @override
-  State<AskmApp> createState() => _AskmAppState();
-}
-
-class _AskmAppState extends State<AskmApp> {
   final _router = AppRouter();
 
   @override
@@ -25,8 +20,6 @@ class _AskmAppState extends State<AskmApp> {
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
       ],
-      locale: const Locale('ru'),
-      // TODO(Benik): delete later ru localization
       supportedLocales: S.delegate.supportedLocales,
       theme: ThemeData.dark(),
       routerConfig: _router.config(),

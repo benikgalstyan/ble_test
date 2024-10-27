@@ -1,4 +1,4 @@
-import 'package:askm/presentation/pages/second_screen/second_layout.dart';
+import 'package:change/presentation/pages/second_screen/second_layout.dart';
 import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 

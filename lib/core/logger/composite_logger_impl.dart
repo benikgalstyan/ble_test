@@ -1,4 +1,4 @@
-import 'package:askm/core/logger/composite_logger.dart';
+import 'package:change/core/logger/composite_logger.dart';
 import 'package:logger/logger.dart';
 
 class CompositeLoggerImpl implements CompositeLogger {

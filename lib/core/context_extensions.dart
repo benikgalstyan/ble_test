@@ -1,8 +1,8 @@
-import 'package:askm/core/logger/composite_logger.dart';
-import 'package:askm/core/logger/conposite_logger_holder.dart';
-import 'package:askm/core/router/app_router_holder.dart';
-import 'package:askm/core/router/router.dart';
-import 'package:askm/generated/l10n.dart';
+import 'package:change/core/logger/composite_logger.dart';
+import 'package:change/core/logger/composite_logger_holder.dart';
+import 'package:change/core/router/app_router_holder.dart';
+import 'package:change/core/router/router.dart';
+import 'package:change/generated/l10n.dart';
 import 'package:flutter/material.dart';
 
 extension ContextExtension on BuildContext {

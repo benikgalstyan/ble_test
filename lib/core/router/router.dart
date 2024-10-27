@@ -1,5 +1,5 @@
-import 'package:askm/presentation/pages/main_screen/main_screen.dart';
-import 'package:askm/presentation/pages/second_screen/second_screen.dart';
+import 'package:change/presentation/pages/main_screen/main_screen.dart';
+import 'package:change/presentation/pages/second_screen/second_screen.dart';
 import 'package:auto_route/auto_route.dart';
 
 part 'router.gr.dart';

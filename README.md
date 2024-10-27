@@ -1,18 +1,7 @@
-(1) Upgrade build runner
 ```bash
-$ flutter upgrade build_runner
-```
-(2) Generate assets
-```bash
-$ dart run build_runner build
-```
+To change the app name throughout your project:
 
-(5) Put away conflicting dependencies 
-```bash
-$ dart run build_runner build --delete-conflicting-outputs
-```
-
-(6) Generation for unsplash assets (https://pub.dev/packages/flutter_native_splash)
-```bash
-$ flutter pub run flutter_native_splash:create
+Press Ctrl + Shift + R to open the replace option.
+In the search bar, enter the current name "change".
+To the next search bar  and type your new app name "app name" and click replace all.
 ```
