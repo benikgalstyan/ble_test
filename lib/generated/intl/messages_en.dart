@@ -21,5 +21,16 @@ class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'en';
 
   final messages = _notInlinedMessages(_notInlinedMessages);
-  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{};
+  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "deviceLocalName":
+            MessageLookupByLibrary.simpleMessage("Device Local Name"),
+        "next": MessageLookupByLibrary.simpleMessage("Continue"),
+        "pause": MessageLookupByLibrary.simpleMessage("Pause"),
+        "restnowEmulator":
+            MessageLookupByLibrary.simpleMessage("RestNow Emulator"),
+        "save": MessageLookupByLibrary.simpleMessage("Save"),
+        "serviceUuids": MessageLookupByLibrary.simpleMessage("Service UUIDs"),
+        "settings": MessageLookupByLibrary.simpleMessage("Settings"),
+        "stop": MessageLookupByLibrary.simpleMessage("Stop")
+      };
 }
