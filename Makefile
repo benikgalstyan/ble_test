@@ -6,26 +6,26 @@ g:
 	make pod
 
 b:
-	fvm dart run build_runner build --delete-conflicting-outputs
+	 dart run build_runner build --delete-conflicting-outputs
 
 a:
 	fluttergen -c pubspec.yaml
 
 p:
-	fvm flutter pub get
+	 flutter pub get
 
 c:
-	fvm flutter clean
+	 flutter clean
 
 cg:
-	fvm flutter clean
-	fvm flutter pub
+	 flutter clean
+	 flutter pub
 
 cr:
-	fvm flutter pub cache repair
+	 flutter pub cache repair
 
 make icons:
-	fvm dart run flutter_launcher_icons
+	 dart run flutter_launcher_icons
 
 make splash:
-	fvm dart run flutter_native_splash:create
+	 dart run flutter_native_splash:create

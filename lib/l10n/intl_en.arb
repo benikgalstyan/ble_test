@@ -1,2 +1,10 @@
 {
+  "pause": "Pause",
+  "next": "Continue",
+  "stop": "Stop",
+  "restnowEmulator": "RestNow Emulator",
+  "settings": "Settings",
+  "deviceLocalName": "Device Local Name",
+  "serviceUuids": "Service UUIDs",
+  "save": "Save"
 }

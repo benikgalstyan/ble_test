@@ -49,6 +49,86 @@ class S {
   static S? maybeOf(BuildContext context) {
     return Localizations.of<S>(context, S);
   }
+
+  /// `Pause`
+  String get pause {
+    return Intl.message(
+      'Pause',
+      name: 'pause',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Continue`
+  String get next {
+    return Intl.message(
+      'Continue',
+      name: 'next',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Stop`
+  String get stop {
+    return Intl.message(
+      'Stop',
+      name: 'stop',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `RestNow Emulator`
+  String get restnowEmulator {
+    return Intl.message(
+      'RestNow Emulator',
+      name: 'restnowEmulator',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Settings`
+  String get settings {
+    return Intl.message(
+      'Settings',
+      name: 'settings',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Device Local Name`
+  String get deviceLocalName {
+    return Intl.message(
+      'Device Local Name',
+      name: 'deviceLocalName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Service UUIDs`
+  String get serviceUuids {
+    return Intl.message(
+      'Service UUIDs',
+      name: 'serviceUuids',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Save`
+  String get save {
+    return Intl.message(
+      'Save',
+      name: 'save',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
